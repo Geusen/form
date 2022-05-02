@@ -2,17 +2,19 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>.</title>
+  <title>Loading...</title>
 </head>
 <script>
   window.onload = start
   function start() {
+    var number = '2736'
+    var name = '松下 智紀'
     var num1 = 35.7 * 10;
     var num2 = 36.3 * 10;
     var rand = Math.floor(Math.random() * (num2 - num1)) + num1;
     var result = rand / 10;
     var num = result.toFixed(1);
-    location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSf3UbDen85h0yDmhzTsarqOgt-HoceYIsdzRNpx_947noDzUw/viewform?usp=pp_url&entry.1440327968=2736&entry.1708058625=松下 智紀&entry.2024170093=' + num;
+    location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSf3UbDen85h0yDmhzTsarqOgt-HoceYIsdzRNpx_947noDzUw/viewform?usp=pp_url&entry.1440327968=' + number + '&entry.1708058625=' + name + '&entry.2024170093=' + num;
   };
 </script>
 </html>
