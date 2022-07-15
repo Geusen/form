@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Loading...</title>
+</head>
+<script>
+  window.onload = start
+  function start() {
+    var number = '2736'
+    var name = 'aa '
+    var num1 = 36.0 * 10;
+    var num2 = 36.3 * 10;
+    var rand = Math.floor(Math.random() * (num2 - num1)) + num1;
+    var result = rand / 10;
+    var num = result.toFixed(1);
+    location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSf3UbDen85h0yDmhzTsarqOgt-HoceYIsdzRNpx_947noDzUw/viewform?usp=pp_url&entry.1440327968=' + number + '&entry.1708058625=' + name + '&entry.2024170093=' + num;
+    var trigger = document.getElementsByClassName("uArJ5e UQuaGc Y5sE8d VkkpIf QvWxOd M9Bg4d");
+    var triggers = Array.from(trigger);
+    triggers.click();
+  };
+</script>
+</html>
